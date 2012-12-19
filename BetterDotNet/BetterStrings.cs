@@ -82,7 +82,30 @@ namespace BetterDotNet
         private const string ReservedFormatCharacters = "{},:";
         private const char OpenBrace = '{';
 
+        /// <summary>
+        /// Format the input string. Instead of using positional
+        /// arguments to assign values, the keys of the dictionary are
+        /// used to determine which value is placed where.
+        /// </summary>
+        /// <param name="fmt">Format string</param>
+        /// <param name="dict">Dictionary containing keys to substitute</param>
+        /// <returns></returns>
         public static string Format(this string fmt, IDictionary<string, object> dict)
+        {
+            return Format(fmt, null, dict);
+        }
+
+        /// <summary>
+        /// Format the input string using the given
+        /// <see cref="IFormatProvider"/>. Instead of using positional
+        /// arguments to assign values, the keys of the dictionary are
+        /// used to determine which value is placed where.
+        /// </summary>
+        /// <param name="fmt">Format string</param>
+        /// <param name="provider">A custom format provider</param>
+        /// <param name="dict">Dictionary containing keys to substitute</param>
+        /// <returns></returns>
+        public static string Format(this string fmt, IFormatProvider provider, IDictionary<string, object> dict)
         {
             var builder = new StringBuilder();
 
@@ -140,7 +163,9 @@ namespace BetterDotNet
                 key.Append(ch);
             }
 
-            return String.Format(builder.ToString(), values);
+            return provider == null ?
+                String.Format(builder.ToString(), values) :
+                String.Format(builder.ToString(), provider, values);
         }
 
         #endregion
