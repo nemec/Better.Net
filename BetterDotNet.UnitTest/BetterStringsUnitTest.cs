@@ -2,12 +2,10 @@
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-// ReSharper disable CheckNamespace
-namespace BetterStrings.UnitTest
-// ReSharper restore CheckNamespace
+namespace BetterDotNet.UnitTest
 {
     [TestClass]
-    public class BetterStringsExtensionsUnitTest
+    public class BetterStringsUnitTest
     {
         [TestMethod]
         public void FormatDict_WithSingleKey()

@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterStrings", "BetterStrings\BetterStrings.csproj", "{C7322201-2054-43D3-B3A4-AEF7B3A9DDEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterDotNet", "BetterDotNet\BetterDotNet.csproj", "{C7322201-2054-43D3-B3A4-AEF7B3A9DDEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterStrings.UnitTest", "BetterStrings.UnitTest\BetterStrings.UnitTest.csproj", "{3E59AB33-BA67-4B59-9B8E-506A51F7BD4B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BetterDotNet.UnitTest", "BetterDotNet.UnitTest\BetterDotNet.UnitTest.csproj", "{3E59AB33-BA67-4B59-9B8E-506A51F7BD4B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3B078D07-3927-4CE0-906E-CE171F82A966}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

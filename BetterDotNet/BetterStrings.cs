@@ -2,12 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 
-// ReSharper disable CheckNamespace
 // ReSharper disable PartialTypeWithSinglePart
-
-namespace BetterStrings
+namespace BetterDotNet
 {
     /// <summary>
     /// Adds various string extensions

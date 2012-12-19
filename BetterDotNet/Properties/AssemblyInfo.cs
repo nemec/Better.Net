@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("StringFormatExtensions.UnitTest")]
+[assembly: AssemblyTitle("BetterDotNet")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("Dan Nemec")]
-[assembly: AssemblyProduct("StringFormatExtensions.UnitTest")]
+[assembly: AssemblyProduct("BetterDotNet")]
 [assembly: AssemblyCopyright("Copyright © Dan Nemec 2012")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("a1f924bb-4748-4f55-94d4-476c0a0c079d")]
+[assembly: Guid("9e7ada50-e196-4e23-bfef-af87497df076")]
 
 // Version information for an assembly consists of the following four values:
 //

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/nemec/Better.Net/blob/master/LICENSE.txt</licenseUrl>
+    <projectUrl>https://github.com/nemec/Better.Net</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>
+      Convenience extensions for reducing friction in C#.
+      See project page for better examples.
+
+      Among other things, allows the following:
+        "{0}".Format("some string");
+        "{key}".Format(new Dictionary{{"key", 10}});
+        new Dictionary{{33, "nothing"}}.Get(22, "alt") == "alt";
+    </description>
+    <copyright>Copyright 2012</copyright>
+  </metadata>
+</package>
