@@ -5,6 +5,8 @@ Convenience extensions for reducing friction in C#
 
 We're on [NuGet](https://nuget.org/packages/BetterDotNet)!
 
+Anyone interested in proposing more features is welcome to submit a pull request or an issue.
+
 ## Better Strings
 
 ### Features
