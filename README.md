@@ -25,7 +25,7 @@ Anyone interested in proposing more features is welcome to submit a pull request
     // This is a value.
 
     var dateDict = new Dictionary<string, DateTime>{
-      { "currentDate", DateTime.Now() }
+      { "currentDate", DateTime.Now }
     };
 
     Console.WriteLine("The current time is {currentDate : HH:mm:ss}"
