@@ -3,6 +3,8 @@ Better.Net
 
 Convenience extensions for reducing friction in C#
 
+We're on [NuGet](https://nuget.org/packages/BetterDotNet)!
+
 ## Better Strings
 
 ### Features
