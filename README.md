@@ -13,24 +13,24 @@ Anyone interested in proposing more features is welcome to submit a pull request
 
 * Adds Python-like syntax for string formatting:
 
-    "{0}:".Format("Title")
+        "{0}:".Format("Title")
 
 * Adds formatting syntax for dictionary keys:
 
-    var stringDict = new Dictionary<string, string>{
-      { "someKey", "value" }
-    };
+        var stringDict = new Dictionary<string, string>{
+          { "someKey", "value" }
+        };
 
-    Console.WriteLine("This is a {someKey}.".Format(stringDict));
-    // This is a value.
+        Console.WriteLine("This is a {someKey}.".Format(stringDict));
+        // This is a value.
 
-    var dateDict = new Dictionary<string, DateTime>{
-      { "currentDate", DateTime.Now }
-    };
+        var dateDict = new Dictionary<string, DateTime>{
+          { "currentDate", DateTime.Now }
+        };
 
-    Console.WriteLine("The current time is {currentDate : HH:mm:ss}"
-        .Format(dateDict));
-    // The current time is 04:10:55
+        Console.WriteLine("The current time is {currentDate : HH:mm:ss}"
+            .Format(dateDict));
+        // The current time is 04:10:55
 
 
 ## Better Dictionaries
@@ -41,12 +41,12 @@ Anyone interested in proposing more features is welcome to submit a pull request
     exists, return the value and, if the key does not exist, return a default
     value.
 
-    var dict = new Dictionary<string, int>{
-      { "age", 20 }
-    }
+        var dict = new Dictionary<string, int>{
+          { "age", 20 }
+        }
 
-    Console.WriteLine(dict.Get("age", 18));
-    // 20
+        Console.WriteLine(dict.Get("age", 18));
+        // 20
 
-    Console.WriteLine(dict.Get("height", 155));
-    // 155
+        Console.WriteLine(dict.Get("height", 155));
+        // 155

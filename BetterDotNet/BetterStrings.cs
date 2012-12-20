@@ -14,7 +14,7 @@ namespace BetterDotNet
         #region Builtin string formatting overrides
 
         /// <summary>
-        /// Format the input string with <param name="arg" /> as
+        /// Format the input string with <paramref name="arg" /> as
         /// its sole parameter.
         /// </summary>
         /// <param name="fmt">Format string.</param>

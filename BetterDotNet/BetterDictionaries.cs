@@ -3,6 +3,9 @@
 // ReSharper disable PartialTypeWithSinglePart
 namespace BetterDotNet
 {
+    /// <summary>
+    /// Extension class dealing with dictionaries.
+    /// </summary>
     public static partial class BetterDictionaries
     {
         /// <summary>
