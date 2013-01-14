@@ -1,7 +1,9 @@
 Better.Net
 =================
 
-Convenience extensions for reducing friction in C#
+Created by [Dan Nemec](http://github.com/nemec)
+
+Convenience extensions for reducing friction when using C# built-in types.
 
 We're on [NuGet](https://nuget.org/packages/BetterDotNet)!
 
