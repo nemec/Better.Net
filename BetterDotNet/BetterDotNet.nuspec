@@ -9,14 +9,20 @@
     <licenseUrl>https://github.com/nemec/Better.Net/blob/master/LICENSE.txt</licenseUrl>
     <projectUrl>https://github.com/nemec/Better.Net</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <summary>
+      Convenience extensions for reducing friction when using C#
+      built-in types. See the project page on Github for examples.
+    </summary>
     <description>
-      Convenience extensions for reducing friction in C#.
-      See project page for better examples.
+      Convenience extensions for reducing friction when using C#
+      built-in types. See the project page on Github for examples.
 
       Among other things, allows the following:
         "{0}".Format("some string");
         "{key}".Format(new Dictionary{{"key", 10}});
         new Dictionary{{33, "nothing"}}.Get(22, "alt") == "alt";
+        10.Pluralize("sock", "socks");
+        "text longer than ten characters".ReflowWords(10);
     </description>
     <copyright>Copyright 2012</copyright>
   </metadata>

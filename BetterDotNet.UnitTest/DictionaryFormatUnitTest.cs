@@ -5,7 +5,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 namespace BetterDotNet.UnitTest
 {
     [TestClass]
-    public class BetterStringsUnitTest
+    public class DictionaryFormatUnitTest
     {
         [TestMethod]
         public void FormatDict_WithSingleKey()

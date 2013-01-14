@@ -42,7 +42,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BetterDictionaries.cs" />
-    <Compile Include="BetterStrings.cs" />
+    <Compile Include="DictionaryFormatExtensions.cs" />
+    <Compile Include="PluralizeStringExtensions.cs" />
+    <Compile Include="SimpleStringFormatting.cs" />
+    <Compile Include="StringReflowExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

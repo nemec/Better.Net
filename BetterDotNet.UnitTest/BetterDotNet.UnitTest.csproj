@@ -51,8 +51,10 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="BetterStringsUnitTest.cs" />
     <Compile Include="BetterDictionariesUnitTest.cs" />
+    <Compile Include="StringReflowUnitTest.cs" />
+    <Compile Include="DictionaryFormatUnitTest.cs" />
+    <Compile Include="PluralizeUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BetterDotNet\BetterDotNet.csproj">
