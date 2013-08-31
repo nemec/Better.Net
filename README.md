@@ -89,3 +89,29 @@ Anyone interested in proposing more features is welcome to submit a pull request
 
         Console.WriteLine(dict.Get("height", 155));
         // 155
+
+## Better Enumerables
+
+### Features
+
+  * Tee (and ConcurrentTee) are extension methods on IEnumerable<T> that
+    implement the same behavior as UNIX tee, namely splitting the output
+    of an enumerable into multiple enumerables that may be independently
+    consumed without risking enumerating the *original* enumerable multiple
+    times. To accomplish this, any values consumed by one enumerable but
+    waiting to be consumed by another will be cached into memory--this may
+    consume significant memory if one is consumed fully while the other
+    remains unconsumed.
+
+      var arr = new[] { 1, 2, 3 };
+      var enums = arr.Tee(2);
+
+      foreach(var en in enums)
+      {
+        foreach(var item in en)
+        {
+          Console.Write(item);
+        }
+      }
+
+      // 123123
