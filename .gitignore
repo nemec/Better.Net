@@ -2,6 +2,8 @@
 [Bb]in/
 [Oo]bj/
 
+*.nupkg
+
 # mstest test results
 TestResults
 

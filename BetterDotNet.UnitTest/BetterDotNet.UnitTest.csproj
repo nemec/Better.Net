@@ -55,6 +55,8 @@
     <Compile Include="StringReflowUnitTest.cs" />
     <Compile Include="DictionaryFormatUnitTest.cs" />
     <Compile Include="PluralizeUnitTest.cs" />
+    <Compile Include="HttpExtensionsUnitTest.cs" />
+    <Compile Include="BetterEnumerablesUnitTest.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BetterDotNet\BetterDotNet.csproj">

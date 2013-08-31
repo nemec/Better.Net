@@ -42,7 +42,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BetterDictionaries.cs" />
+    <Compile Include="BetterEnumerables.cs" />
     <Compile Include="DictionaryFormatExtensions.cs" />
+    <Compile Include="HttpExtensions.cs" />
     <Compile Include="PluralizeStringExtensions.cs" />
     <Compile Include="SimpleStringFormatting.cs" />
     <Compile Include="StringReflowExtensions.cs" />
